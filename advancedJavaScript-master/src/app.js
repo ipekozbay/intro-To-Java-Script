@@ -13,7 +13,7 @@ let students2 = [students, { id: 2, name: "ipek" }, "ankara", { city: "istanbul"
 console.log(students2)
 
 
-//rest
+//rest 
 let showProducts = function (id, ...products) {
     console.log(id)
     console.log(products[0])
