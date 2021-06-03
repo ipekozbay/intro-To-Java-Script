@@ -1,16 +1,16 @@
 var sayi1 = 10
 sayi1 = "engin demirog"
 let student = { id: 1, name: "engin" }
-//console.log(student)
+console.log(student)
 
 function save(puan = 10, ogrenci) {
-    //console.log(ogrenci.name + ":" + puan)
+    console.log(ogrenci.name + ":" + puan)
 }
 let students = ["a", "b", "c", "d"]
-//console.log(students)
+console.log(students)
 
 let students2 = [students, { id: 2, name: "ipek" }, "ankara", { city: "istanbul" }]
-//console.log(students2)
+console.log(students2)
 
 
 //rest
@@ -20,8 +20,8 @@ let showProducts = function (id, ...products) {
 
 }
 
-// console.log(typeof showProducts)
-//showProducts(10, ["elma", "armut", "karpuz"])
+ console.log(typeof showProducts)
+showProducts(10, ["elma", "armut", "karpuz"])
 
 //spread
 let points = [1, 2, 3, 4, 5, 6]
